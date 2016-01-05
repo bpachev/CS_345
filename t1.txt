@@ -1,0 +1,3 @@
+add 0xabcdef 9
+
+args foo bar

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(my_shell)
+set(SRC_FILES os345.c os345fat.c os345lc3.c  os345p1.c  os345p4.c  os345park.c os345signals.c os345.h os345fat.h os345lc3.h os345p2.c os345p5.c os345park.h os345signals.h os345config.h os345interrupts.c os345mmu.c os345p3.c os345p6.c os345semaphores.c os345tasks.c)
+set(CMAKE_C_FLAGS -g)
+add_definitions(-DMAIN)
+add_executable(my_shell ${SRC_FILES})

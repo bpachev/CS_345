@@ -1,0 +1,6 @@
+
+mount
+
+copy H2O.c JOKES
+ 
+type JOKES
